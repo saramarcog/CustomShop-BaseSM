@@ -1,0 +1,242 @@
+.intranet-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.intranet-header {
+  background-color: #001f3f;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intranet-header h2 {
+  margin: 0;
+}
+
+.intranet-nav {
+  background-color: #e9ecef;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.intranet-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.intranet-nav a.active {
+  font-weight: bold;
+  color: #ca00af;
+}
+
+.intranet-main {
+  padding: 2rem;
+  flex: 1;
+  background-color: #f8f9fa;
+}
+
+.intranet-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.intranet-page-title {
+  margin-top: 0;
+}
+
+.intranet-welcome-text {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.intranet-text {
+  color: #555;
+}
+
+.btn-intranet {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ca00af;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-intranet:hover {
+  background-color: #a0008b;
+}
+
+.clock-message-success {
+  padding: 1rem;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.clock-form-group {
+  margin-bottom: 1.5rem;
+}
+
+.clock-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.clock-textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.btn-clock-in {
+  background-color: #28a745;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  margin-top: 0;
+}
+
+.btn-clock-in:hover {
+  background-color: #218838;
+}
+
+.btn-clock-out {
+  background-color: #dc3545;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  margin-top: 0;
+}
+
+.btn-clock-out:hover {
+  background-color: #c82333;
+}
+
+/* Admin Users Panel CSS */
+.admin-loading {
+  padding: 2rem;
+}
+
+.admin-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-title {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table thead tr {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.admin-table th {
+  padding: 1rem;
+  text-align: left;
+  color: #495057;
+}
+
+.admin-table th.text-center, .admin-table td.text-center {
+  text-align: center;
+}
+
+.admin-table tbody tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin-table td {
+  padding: 1rem;
+}
+
+.admin-id-cell {
+  font-weight: bold;
+}
+
+.admin-email-cell {
+  color: #666;
+}
+
+.admin-select-role {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background-color: white;
+  cursor: pointer;
+}
+
+.admin-status-badge {
+  padding: 0.35rem 0.65rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.status-active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-suspended {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.btn-admin-action {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.btn-suspend {
+  background-color: #dc3545;
+}
+
+.btn-suspend:hover {
+  background-color: #c82333;
+}
+
+.btn-reactivate {
+  background-color: #28a745;
+}
+
+.btn-reactivate:hover {
+  background-color: #218838;
+}
